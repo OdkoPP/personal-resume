@@ -1,0 +1,132 @@
+.page-container {
+  /*border: 1px solid lightgray;*/
+  width: 210mm;
+  height: 297mm;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: hidden;
+}
+
+.side-bar {
+  width: 70mm;
+  padding: 8mm 5mm;
+  border-right: 1px solid #e0e0e0;
+}
+
+.main-content {
+  width: 140mm;
+  padding: 8mm 5mm;
+}
+
+.person {
+  text-align: center;
+}
+.person-photo {
+  display: inline-block;
+  width: 40mm;
+  height: 40mm;
+  border-radius: 20mm;
+  border: 1mm solid white;
+  box-shadow: 0 0 0 1mm #000 !important;
+  overflow: hidden;
+}
+
+.person-photo img {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  margin-top: -12mm;
+}
+
+.person-name {
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: bold;
+}
+.person-description {
+  text-transform: capitalize;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.person-info {
+  text-align: left;
+}
+.person-info i.fa {
+  width: 5mm;
+  text-align: center;
+  margin-right: 1mm;
+}
+
+.skill-group-name {
+  font-weight: bold;
+  margin-top: 4mm;
+  font-size: 18px;
+}
+.skill-level {
+  position: relative;
+  float: right;
+}
+
+.education-degree {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.education-year {
+  display: inline-block;
+  margin-left: 2mm;
+  /*font-style: italic;*/
+}
+
+.education-faculty {}
+
+.education-university {}
+
+.work-position-name {
+  font-weight: bold;
+  display: inline-block;
+  font-size: 18px;
+}
+.work-date {
+  display: inline-block;
+  margin-left: 2mm;
+}
+
+.my-h {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 1mm;
+}
+.my-h::after {
+  content: '';
+  flex: 1;
+  margin-left: 2mm;
+  height: 1px;
+  background-color: #000 !important;
+}
+.my-h i.fa {
+  margin-right: 2mm;
+  width: 6mm;
+  text-align: center;
+}
+
+.block {
+  margin-bottom: 5mm;
+}
+
+ul {
+  margin-top: 2mm;
+}
+
+/*@media print {*/
+/*  body {*/
+/*    !*-webkit-print-color-adjust: exact;*!*/
+/*    !*color-adjust: exact;*!*/
+/*  }*/
+/*}*/
